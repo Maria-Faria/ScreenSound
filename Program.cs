@@ -77,7 +77,7 @@ void RegistrarBanda()
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
 
-    if (!BandaExiste(nomeDaBanda))
+    if (!bandasRegistradas.ContainsKey(nomeDaBanda)) 
     {
         bandasRegistradas.Add(nomeDaBanda, new List<int>()); //apenas registrando, sem notas
         Console.WriteLine($"A banda {nomeDaBanda} foi resgistrada com sucesso!");
@@ -154,13 +154,6 @@ void AvaliarUmaBanda()
         ExibirOpcoesDoMenu();
 
         //senão, volta ao menu principal
-    }else
-    {
-        Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada!");
-        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
-        Console.ReadKey();
-        Console.Clear();
-        ExibirOpcoesDoMenu();
     }
 }
 
@@ -184,6 +177,14 @@ void ExibirMedia()
         Thread.Sleep(4000);
         Console.Clear();
         ExibirOpcoesDoMenu();
+    }
+}
+
+Boolean BandaExiste(string nomeDaBanda)
+{
+    if(bandasRegistradas.ContainsKey(nomeDaBanda))
+    {
+        return true;
     
     }else
     {
@@ -192,18 +193,8 @@ void ExibirMedia()
         Console.ReadKey();
         Console.Clear();
         ExibirOpcoesDoMenu();
+        return false;
     }
-
-}
-
-Boolean BandaExiste(string nomeDaBanda)
-{
-    if(bandasRegistradas.ContainsKey(nomeDaBanda))
-    {
-        return true;
-    }
-
-    return false;
 }
 
 ExibirOpcoesDoMenu();
