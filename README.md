@@ -26,3 +26,6 @@ Esse projeto foi desenvolvido durante as aulas do curso "C#: Criando sua primeir
 - Utilização de estruturas de decisão e de repetição em C#
 
 ## 💻 Demonstração prática
+https://github.com/Maria-Faria/ScreenSound/assets/114308727/2ed6bd98-e99b-435d-8a37-5e6d63662a46
+
+
