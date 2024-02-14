@@ -1,10 +1,10 @@
 # 🔉Screen Sound
 `finalizado`
 
-# ✏️ Descrição do projeto
+## ✏️ Descrição do projeto
 Esse projeto foi desenvolvido durante as aulas do curso "C#: Criando sua primeira aplicação", da plataforma _Alura_.
 
-# 🔨 Funcionalidades
+## 🔨 Funcionalidades
 `Registrar uma banda`: 
 
 `Exibir todas as bandas registradas`:
@@ -13,4 +13,4 @@ Esse projeto foi desenvolvido durante as aulas do curso "C#: Criando sua primeir
 
 `Calcular a média de avaliações de uma banda`: 
 
-# 📋 Aprendizados
+## 📋 Aprendizados
