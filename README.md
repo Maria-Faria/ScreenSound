@@ -17,6 +17,10 @@ Esse projeto foi desenvolvido durante as aulas do curso "C#: Criando sua primeir
 
   ![image](https://github.com/Maria-Faria/ScreenSound/assets/114308727/8b8b187a-d68c-43dc-a5ec-5d4813c1d68a)
 
-`Calcular a média de avaliações de uma banda`: 
+`Calcular a média de avaliações de uma banda`: caso selecione a opção 4, o usuário deverá informar o nome da banda da qual ele deseja consultar a média de avaliações, assim, após verificar se a banda existe no dicionário, o programa exibe a média de avaliações da mesma, por meio da função **Average**.
+
+  ![image](https://github.com/Maria-Faria/ScreenSound/assets/114308727/8f6572e0-e475-4adb-8865-371473e531c7)
 
 ## 📋 Aprendizados
+
+## 💻 Demonstração prática
